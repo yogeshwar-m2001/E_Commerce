@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-11T23:08:24 IST" name="Default suite" finished-at="2025-11-11T23:10:46 IST" duration-ms="141444">
+    <groups>
+    </groups>
+    <test started-at="2025-11-11T23:08:24 IST" name="Default test" finished-at="2025-11-11T23:10:46 IST" duration-ms="141444">
+      <class name="Add_To_Cart.addToCart">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Add_To_Cart.addToCart@74235045]" started-at="2025-11-11T23:08:24 IST" name="launchBrowser" finished-at="2025-11-11T23:10:03 IST" duration-ms="98942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginBrowser()[pri:0, instance:Add_To_Cart.addToCart@74235045]" started-at="2025-11-11T23:10:03 IST" name="loginBrowser" finished-at="2025-11-11T23:10:22 IST" duration-ms="18145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBrowser -->
+        <test-method signature="addToCartTest()[pri:0, instance:Add_To_Cart.addToCart@74235045]" started-at="2025-11-11T23:10:22 IST" name="addToCartTest" finished-at="2025-11-11T23:10:40 IST" duration-ms="18557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="logoutBrowser()[pri:0, instance:Add_To_Cart.addToCart@74235045]" started-at="2025-11-11T23:10:40 IST" name="logoutBrowser" finished-at="2025-11-11T23:10:44 IST" duration-ms="3786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Add_To_Cart.addToCart@74235045]" started-at="2025-11-11T23:10:44 IST" name="closeBrowser" finished-at="2025-11-11T23:10:46 IST" duration-ms="1513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Add_To_Cart.addToCart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
