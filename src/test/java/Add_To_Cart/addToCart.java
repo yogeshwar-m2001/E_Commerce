@@ -22,9 +22,12 @@ public class addToCart extends BaseTest {
 		action.moveToElement(productPage.getContainer()).perform();
 
 		Thread.sleep(2000);
-		
-		
-		
+		Thread.sleep(2000);
+		Thread.sleep(2000);
+		Thread.sleep(2000);
+		Thread.sleep(2000);
+		Thread.sleep(2000);
+		Thread.sleep(2000);
 
 	}
 }
