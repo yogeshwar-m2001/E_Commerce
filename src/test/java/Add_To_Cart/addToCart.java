@@ -12,8 +12,7 @@ public class addToCart extends BaseTest {
 	public void addToCartTest() throws InterruptedException {
 		HomePage homePage = new HomePage(driver);
 		homePage.getProductsLink().click();
-//		homePage.getCartLink().click();
-//
+
 		ProductsPage productPage = new ProductsPage(driver);
 		productPage.getSearchBar().sendKeys("Shirts");
 		productPage.getSearchButton().click();
@@ -22,12 +21,7 @@ public class addToCart extends BaseTest {
 		action.moveToElement(productPage.getContainer()).perform();
 
 		Thread.sleep(2000);
-		Thread.sleep(2000);
-		Thread.sleep(2000);
-		Thread.sleep(2000);
-		Thread.sleep(2000);
-		Thread.sleep(2000);
-		Thread.sleep(2000);
-
+		
+	
 	}
 }
